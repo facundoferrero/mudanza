@@ -1,0 +1,31 @@
+.principal{
+    height: 70vh;
+    padding-top: 30px;
+}
+
+.container-log{
+    text-align: center;
+    color:#800020;
+    
+}
+
+.log-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.log-container input{
+    height: 25px;
+    text-align: center;
+}
+
+.log-container .ingresar{
+    width: 90px;
+}

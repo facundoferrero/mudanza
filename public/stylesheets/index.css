@@ -1,0 +1,204 @@
+*{  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sections-titles{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    color: cornsilk;
+    font-size: 2.2em;
+    font-weight: 900;
+    width: 100%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+   } 
+
+.header-container{
+   background-color: white;
+   height: 20vh;
+  
+}
+
+.header-container-logo{
+    box-sizing: border-box;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px 4px 4px;
+    
+}
+
+
+.logo{ 
+    width: 148px;
+    display: inline-block;
+}
+
+.button-loggin-carrito {
+    width: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.button-loggin-carrito .fas{
+    margin-left: 10px;
+}
+
+.button-loggin-carrito i{
+    margin: 5px;
+    color:#800020;
+    font-size: 30px;
+}
+
+.nav-bar ul{
+    display: none;
+}
+
+.nav-button {
+    border: 0;
+    background-color: transparent;
+}
+
+
+.barra-de-busqueda{
+    background-color: #800020;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.barra-de-busqueda .barra{
+    border: none;
+}
+
+.barra-de-busqueda button{
+    margin-left: 2px;
+}
+
+.barra{
+    width: 100%;
+    padding: 2px;
+     
+}
+.fa-glass-cheers{
+    padding: 3px;
+}
+
+.sections-container{
+    height: 70vh;
+}
+
+
+.promociones{
+    height: 18%;
+    display: flex;
+    background-image: url("/images/banners/banner-promociones.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(5);
+    object-fit: cover;
+    text-align: center;
+    
+}
+
+.promociones:hover {
+    filter: grayscale(0);
+}
+
+.cervezas{
+    height: 23%;
+    display: flex;
+    background-image: url("/images/banners/banner-cervezas.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(5);
+    object-fit: cover;
+}
+
+.cervezas:hover {
+    filter: grayscale(0);
+}
+
+.vinos-espumantes{
+    display: flex;
+    height: 15%;
+    background-image: url("/images/banners/banner-vinos.jpg");
+    background-size: cover;
+    background-position: center;    
+    filter: grayscale(5);
+    object-fit: cover;
+}
+
+.vinos-espumantes:hover {
+    filter: grayscale(0);
+}
+
+
+.aperitivos{
+    display: flex;
+    height: 20%;
+    background-image: url("/images/banners/banner-aperitivos.jpg");
+    background-size: cover;
+    background-position: center;   
+    filter: grayscale(5);
+    object-fit: cover;
+}
+
+.aperitivos:hover{
+    filter: grayscale(0);
+}
+
+
+.espirituosas {
+    display: flex;
+    height: 24%;
+    background-image: url("/images/banners/banner-espirituosas.jpg");
+    background-size: cover;
+    background-position: center;   
+    filter: grayscale(5);
+    object-fit: cover;
+}
+
+.espirituosas:hover {
+    filter: grayscale(0);
+}
+
+footer {
+    height: 10vh;
+    background-color:#800020;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-iconos i{
+    color: white;
+    font-size: 20px;
+}
